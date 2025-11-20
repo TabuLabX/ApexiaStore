@@ -1,0 +1,6 @@
+@ApexiaStore.API.Identity_HostAddress = http://localhost:5049
+
+GET {{ApexiaStore.API.Identity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

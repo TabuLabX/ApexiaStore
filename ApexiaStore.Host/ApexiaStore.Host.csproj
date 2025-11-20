@@ -1,0 +1,19 @@
+﻿<Project Sdk="Aspire.AppHost.Sdk/13.0.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>8f0bded3-7424-49c7-8aeb-08215fee7310</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost"  />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\ApexiaStore.API.Identity\ApexiaStore.API.Identity.csproj" />
+  </ItemGroup>
+
+</Project>

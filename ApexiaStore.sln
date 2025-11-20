@@ -3,12 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexiaStore.Host", "ApexiaStore.Host\ApexiaStore.Host.csproj", "{517814E3-5775-4C3D-91B9-863114156766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexiaStore.API.Identity", "ApexiaStore.API.Identity\ApexiaStore.API.Identity.csproj", "{3A70C6F4-2D32-453E-BA87-0C3745801EEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{517814E3-5775-4C3D-91B9-863114156766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517814E3-5775-4C3D-91B9-863114156766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517814E3-5775-4C3D-91B9-863114156766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517814E3-5775-4C3D-91B9-863114156766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A70C6F4-2D32-453E-BA87-0C3745801EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A70C6F4-2D32-453E-BA87-0C3745801EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A70C6F4-2D32-453E-BA87-0C3745801EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A70C6F4-2D32-453E-BA87-0C3745801EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E34ED3B8-DC43-44B1-B7B1-BD593D8BA006}
 	EndGlobalSection
 EndGlobal
